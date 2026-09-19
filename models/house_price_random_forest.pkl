@@ -1,0 +1,3 @@
+import joblib
+
+joblib.dump(rf_model, "C:/Users/Shreyanshi/ml/House-price-prediction/models/house_price_random_forest.pkl")
