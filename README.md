@@ -1,10 +1,10 @@
-# 🏠 House Price Prediction
+#  House Price Prediction
 
 A machine learning project that predicts median house values using the Boston Housing dataset. The project follows a complete machine learning workflow, including data exploration, preprocessing, regression modeling, evaluation, and model saving.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 House prices depend on several factors such as crime rate, number of rooms, accessibility to highways, property taxes, and socioeconomic indicators.
 
@@ -26,7 +26,7 @@ The project follows a complete machine learning workflow:
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 The project uses the `BostonHousing.csv` dataset.
 
@@ -36,7 +36,7 @@ The dataset contains:
 - **13 input features**
 - **1 target variable**
 
-## Features
+### Features
 
 | Feature | Description |
 |---|---|
@@ -54,13 +54,13 @@ The dataset contains:
 | `b` | Demographic-related index |
 | `lstat` | Lower-status population percentage |
 
-## Target
+### Target
 
 `medv` — Median house value.
 
 ---
 
-## 🔎 Exploratory Data Analysis
+##  Exploratory Data Analysis
 
 The dataset was initially inspected to understand its structure, data types, distributions, and relationships between variables.
 
@@ -91,7 +91,7 @@ The correlation analysis showed several noticeable relationships with the target
 
 ---
 
-## ⚙️ Machine Learning Workflow
+## Machine Learning Workflow
 
 ### 1. Feature and Target Separation
 
@@ -141,7 +141,7 @@ The scaler was fitted only on the training data and then applied to the test dat
 
 ---
 
-## 🤖 Machine Learning Models
+## Machine Learning Models
 
 Two regression models were implemented and compared.
 
@@ -180,7 +180,7 @@ Feature scaling was not required for the Random Forest model.
 
 ---
 
-## 📈 Model Evaluation
+## Model Evaluation
 
 The models were evaluated using three regression metrics:
 
@@ -204,7 +204,7 @@ A higher R² indicates that the model explains more of the variation in the targ
 
 ---
 
-## 📊 Results
+## Results
 
 The models were evaluated on the 20% test set using `random_state=42`.
 
@@ -219,7 +219,7 @@ These results represent the performance obtained from the specified train-test s
 
 ---
 
-## 💾 Saving the Model
+## Saving the Model
 
 The trained Random Forest model can be saved using `joblib`.
 
@@ -242,7 +242,7 @@ rf_model = joblib.load(
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 House-price-prediction/
@@ -267,7 +267,7 @@ The local Conda environment and Jupyter checkpoint files are excluded from versi
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python
 - Jupyter Notebook
@@ -282,7 +282,7 @@ The local Conda environment and Jupyter checkpoint files are excluded from versi
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Clone the Repository
 
@@ -313,7 +313,7 @@ Run the notebook cells from top to bottom.
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 Possible extensions to the project include:
 
@@ -322,12 +322,12 @@ Possible extensions to the project include:
 - Testing additional regression algorithms
 - Feature importance analysis
 - Interactive house-price prediction interface
-- Streamlit-based deployment
+- Deployment
 - User-input based house-price predictions
 
 ---
 
-# 🎯 Project Objective
+# Project Objective
 
 This project demonstrates the fundamental workflow of a supervised machine learning regression problem:
 
@@ -337,7 +337,7 @@ It provides practical experience with tabular data, regression models, feature p
 
 ---
 
-# 👩‍💻 Author
+# Author
 
 **Shreyanshi Rana**
 
