@@ -1,0 +1,9 @@
+# Conda environment
+.conda/
+
+# Jupyter temporary checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
